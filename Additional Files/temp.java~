@@ -1,0 +1,10 @@
+if ((playerLVL >= 5)&&(playerLVL <= 10)) {
+  System.out.println("You can cast one spell.\nPress 1 to cast Fireball.");
+  int cast = input.nextInt();
+  if (cast == 1) {
+    //int castdamage = ((int)(Math.random()*30+20));
+    //enemyhp = enemyhp - castdamage;
+  }
+} else if ((playerLVL >= 5)&&(playerLVL <= 15)) {
+  System.out.println("You can cast two spells.\nPress 1 to cast Fireball or 2 to cast Shock Lance.");
+  int cast2 = 
