@@ -494,7 +494,7 @@ public class DystopiaDraftMode {
       return ((int)(Math.random()*20+18));
     }
   } 
-//the playerEXP method deals with player experience points1
+//the playerEXP method deals with player experience points
   public static int playerEXP(int expGain) {
     System.out.println("You gained "+expGain+" EXP!");
     playerEXP = playerEXP + expGain;
